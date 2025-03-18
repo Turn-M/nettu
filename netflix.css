@@ -341,7 +341,141 @@ ul li {
     padding-left: 120px;
     padding-top: 10px;    padding-bottom: 20px;
 }
-@media (max-width: 575px) 
+@media (max-width: 480px)
+{
+    * {
+        padding: 0;
+        margin: 0;
+        border: none;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: rgb(10, 19, 37);
+    }
+    .logo {
+        transform: translate(-18%,10%);     
+        font-size: 10px; 
+    }
+    .sign-in2 {
+        display: flex;
+        transform: translate(-0%,40%); 
+
+    }
+    .language {  
+        height: 30px;
+        color: red;
+    }
+
+    .imagees {
+        background-color: rgb(23, 10, 37);
+        text-align: center;
+        transform: translate(-2%, 0%);
+
+    }
+    .image {
+        height: 400px;
+        width: 400px;
+        text-align: center;
+    }    
+    .welcome-msg {
+        height: 400px;
+        transform: translate(-50%, -75%);
+    
+    }
+    .welcome-msg h1 {
+        height: 100px;
+        width: 400px;
+        font-size: 250%;
+        
+    }
+    .welcome-msg h3 {
+        width: 350px;
+        font-size: 20px;
+        transform: translate(0%, -65%);
+    }
+    .email-add input {
+        transform: translate(0%, 40%);
+        width: 250px;
+    }
+    .email-add button {
+        font-size: 15px;
+        height: 70%;
+        width: 17%;
+        transform: translate(0%, 60%);
+
+    }
+    .reasons {
+        font-size: 20px;
+        transform: translate(-10%, 20%);
+    }
+    .all-boxes {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .box {
+        height: 150px;
+        width: 400px;
+        transform: translate(-5%, 0%);
+
+    }
+    
+    .tv i {
+        transform: translate(60%, -50%);
+    
+    }
+    .down i {
+        transform: translate(65%, -50%);
+    
+    }
+    .stream i {
+        transform: translate(65%, -60%);
+    
+    }
+    .profile i {
+        transform: translate(65%, -70%);
+    
+    }
+    .faqs h2 {
+        font-size: 20px;
+        transform: translate(-8%);
+}
+.gmail-add {
+    transform: translate(3%);
+
+}
+.gmail-add input {
+    height: 40%;
+    width: 60%;
+}
+.gmail-add button {
+    height: 40px;
+    width: 30%;
+    font-size: 15px;
+}
+footer {
+    width: 100%;
+    display: flex;
+}
+ul {
+    transform: translate(-15%,0%);
+}
+.ss select {
+    width: 20%;
+    height: 50%;
+    font-size: 15px;
+    transform: translate(-50%,0%);
+
+}
+.netflix p {
+    transform: translate(-10%,-20%);
+}
+
+}
+@media (min-width: 481px) and (max-width: 575px)
 
     {
         * {
