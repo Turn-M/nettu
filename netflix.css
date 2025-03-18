@@ -369,12 +369,12 @@ ul li {
     .imagees {
         background-color: rgb(23, 10, 37);
         text-align: center;
-        transform: translate(-2%, 0%);
+        transform: translate(-0%, 0%);
 
     }
     .image {
-        height: 400px;
-        width: 400px;
+        height: 700px;
+        width: 390px;
         text-align: center;
     }    
     .welcome-msg {
@@ -419,7 +419,7 @@ ul li {
     .box {
         height: 150px;
         width: 400px;
-        transform: translate(-5%, 0%);
+        transform: translate(-0%, 0%);
 
     }
     
