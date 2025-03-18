@@ -19,7 +19,7 @@ body {
 .image {
     height: 550px;
     width: 1300px;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("netfliximage.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("Img/netfliximage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 4%;
@@ -38,8 +38,8 @@ nav {
 }
 .logo {
     height: 95px;
-    width: 180px;
-    background-image: url("netflix2.png");
+    width: 160px;
+    background-image: url("Img/netflix2.png");
     background-size: cover;
     background-repeat: no-repeat;
     color: #E50914;   
@@ -355,6 +355,7 @@ ul li {
     .logo {
         transform: translate(-18%,10%);     
         font-size: 10px; 
+        width: 90;
     }
     .sign-in2 {
         display: flex;
